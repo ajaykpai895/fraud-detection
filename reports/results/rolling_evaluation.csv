@@ -1,0 +1,5 @@
+period,train_rows,train_frauds,test_rows,test_frauds,no_skill_pr_auc,logreg_pr_auc,iforest_pr_auc,xgb_pr_auc
+period_1,170884,360,28480,24,0.00084,0.6769,0.0231,0.6973
+period_2,199364,384,28480,33,0.00116,0.8309,0.0432,0.8442
+period_3,227844,417,28480,53,0.00186,0.834,0.0833,0.8303
+period_4,256324,470,28480,22,0.00077,0.6477,0.0397,0.7254

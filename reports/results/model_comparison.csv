@@ -1,0 +1,5 @@
+model,val_pr_auc,test_pr_auc,test_recall@precision80,test_recall@fpr0.1%,test_roc_auc,test_no_skill_pr_auc
+logreg,0.8394,0.7066,0.7308,0.75,0.9773,0.00122
+iforest,0.0449,0.064,0.0,0.0769,0.9442,0.00122
+xgb,0.859,0.7717,0.75,0.7692,0.9696,0.00122
+xgb_smote,0.8444,0.7746,0.75,0.7885,0.9733,0.00122

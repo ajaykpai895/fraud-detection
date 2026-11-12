@@ -1,0 +1,149 @@
+{
+  "threshold": 0.037,
+  "n_frauds": 52,
+  "n_caught": 40,
+  "n_missed": 12,
+  "n_fp": 52,
+  "missed_stats": {
+    "count": 12,
+    "amount_mean": 144.84,
+    "amount_median": 9.95,
+    "amount_max": 1096.99,
+    "score_mean": 0.0027,
+    "score_max": 0.0141
+  },
+  "caught_stats": {
+    "count": 40,
+    "amount_mean": 110.77,
+    "amount_median": 4.79,
+    "amount_max": 1504.93,
+    "score_mean": 0.9509,
+    "score_min": 0.037
+  },
+  "amount_band_breakdown": [
+    {
+      "amount_band": "$0\u2013$10",
+      "test_transactions": 17027,
+      "frauds": 29,
+      "caught": 23,
+      "missed": 6,
+      "false_positives": 23,
+      "recall": 0.793
+    },
+    {
+      "amount_band": "$10\u2013$50",
+      "test_transactions": 13548,
+      "frauds": 7,
+      "caught": 4,
+      "missed": 3,
+      "false_positives": 1,
+      "recall": 0.571
+    },
+    {
+      "amount_band": "$50\u2013$200",
+      "test_transactions": 8594,
+      "frauds": 7,
+      "caught": 6,
+      "missed": 1,
+      "false_positives": 2,
+      "recall": 0.857
+    },
+    {
+      "amount_band": "$200+",
+      "test_transactions": 3553,
+      "frauds": 9,
+      "caught": 7,
+      "missed": 2,
+      "false_positives": 26,
+      "recall": 0.778
+    }
+  ],
+  "fp_amount_band_breakdown": [
+    {
+      "amount_band": "$0\u2013$10",
+      "legit_transactions": 16998,
+      "false_positives": 23,
+      "fpr": 0.00135
+    },
+    {
+      "amount_band": "$10\u2013$50",
+      "legit_transactions": 13541,
+      "false_positives": 1,
+      "fpr": 7e-05
+    },
+    {
+      "amount_band": "$50\u2013$200",
+      "legit_transactions": 8587,
+      "false_positives": 2,
+      "fpr": 0.00023
+    },
+    {
+      "amount_band": "$200+",
+      "legit_transactions": 3544,
+      "false_positives": 26,
+      "fpr": 0.00734
+    }
+  ],
+  "top_shap_comparison": [
+    {
+      "feature": "V14",
+      "mean_abs_shap_caught": 4.619279861450195,
+      "mean_abs_shap_missed": 1.5774600505828857,
+      "diff_caught_minus_missed": 3.0418200492858887
+    },
+    {
+      "feature": "V4",
+      "mean_abs_shap_caught": 1.4312299489974976,
+      "mean_abs_shap_missed": 2.0073599815368652,
+      "diff_caught_minus_missed": -0.5761299729347229
+    },
+    {
+      "feature": "V10",
+      "mean_abs_shap_caught": 1.338670015335083,
+      "mean_abs_shap_missed": 1.0063999891281128,
+      "diff_caught_minus_missed": 0.3322699964046478
+    },
+    {
+      "feature": "V8",
+      "mean_abs_shap_caught": 1.2001700401306152,
+      "mean_abs_shap_missed": 0.4676400125026703,
+      "diff_caught_minus_missed": 0.7325299978256226
+    },
+    {
+      "feature": "Time",
+      "mean_abs_shap_caught": 1.1540199518203735,
+      "mean_abs_shap_missed": 1.0787099599838257,
+      "diff_caught_minus_missed": 0.07530999928712845
+    },
+    {
+      "feature": "V12",
+      "mean_abs_shap_caught": 0.973360002040863,
+      "mean_abs_shap_missed": 1.620669960975647,
+      "diff_caught_minus_missed": -0.6473100185394287
+    },
+    {
+      "feature": "V3",
+      "mean_abs_shap_caught": 0.8421199917793274,
+      "mean_abs_shap_missed": 0.43018999695777893,
+      "diff_caught_minus_missed": 0.41192999482154846
+    },
+    {
+      "feature": "V17",
+      "mean_abs_shap_caught": 0.6368299722671509,
+      "mean_abs_shap_missed": 0.37915998697280884,
+      "diff_caught_minus_missed": 0.25766998529434204
+    },
+    {
+      "feature": "V7",
+      "mean_abs_shap_caught": 0.6065499782562256,
+      "mean_abs_shap_missed": 0.6960899829864502,
+      "diff_caught_minus_missed": -0.08953999727964401
+    },
+    {
+      "feature": "Amount",
+      "mean_abs_shap_caught": 0.5392900109291077,
+      "mean_abs_shap_missed": 0.5577800273895264,
+      "diff_caught_minus_missed": -0.018489999696612358
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+calibration,brier_score
+raw,0.000438
+platt,0.000414
+isotonic,0.000399
+no_skill_baseline,0.001216

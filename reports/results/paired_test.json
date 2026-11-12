@@ -1,0 +1,18 @@
+{
+  "xgb_vs_logreg": {
+    "point_diff": 0.0651,
+    "mean_diff": 0.0585,
+    "ci_lower": -0.0129,
+    "ci_upper": 0.157,
+    "p_value": 0.194,
+    "significant": false
+  },
+  "xgb_vs_xgb_smote": {
+    "point_diff": -0.0028,
+    "mean_diff": -0.0031,
+    "ci_lower": -0.0275,
+    "ci_upper": 0.0176,
+    "p_value": 0.842,
+    "significant": false
+  }
+}

@@ -1,0 +1,4 @@
+rule,threshold,n_flagged,tp,fp,fn,test_cost_usd,pct_loss_avoided
+flag_nothing,—,0,0,0,52,6168.88,0.0
+global_threshold_isotonic,0.037,92,40,52,12,1998.1,67.6
+amount_aware_p_times_amount,p*amount > 5.0,108,19,89,33,1856.68,69.9
